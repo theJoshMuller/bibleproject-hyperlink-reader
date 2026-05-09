@@ -1,35 +1,42 @@
 # BibleProject Hyperlink Reader
 
-BibleProject Hyperlink Reader is a static-first PWA Bible reader concept intended for open-source release once application and content licensing boundaries are settled. Its aim is to help readers follow evidence-backed thematic links through Scripture, with insight data extracted from BibleProject podcast and course material through an agentic QC pipeline.
+BibleProject Hyperlink Reader is a static-first PWA Bible reader for following evidence-backed thematic links through Scripture. The current deployed MVP focuses on the **Dragon / Chaos Waters** theme and uses the public-domain **Berean Standard Bible (BSB)** as its reader substrate.
 
 This is an independent project and is not affiliated with, endorsed by, or sponsored by BibleProject. BibleProject content use remains subject to BibleProject's own terms and licensing.
 
-The reader should make the Bible text usable offline, especially on phones and e-reader-like screens. The data model starts with the Berean Standard Bible (BSB), then leaves room for a later translation abstraction once the reader substrate is stable.
+## Current MVP
 
-## Current Phase
+The app now includes:
 
-This repository is in Phase 0: scaffold, source policy, schemas, and workflow documentation. Phase 0 does not implement the app UI, download Bible text, ingest media, fetch transcripts, or synthesize insight data.
+- Offline-capable static PWA shell.
+- Full BSB text normalized by book/chapter/verse from [`https://bereanbible.com/bsb.txt`](https://bereanbible.com/bsb.txt).
+- Mobile/e-reader-friendly reader UI with night and sepia modes.
+- Dragon / Chaos Waters theme toggles, visual highlight markers, and an anchor trail.
+- Source-linked seed insight packets that cite BibleProject public episode/video/guide pages and podcast chapter timestamps where available.
+- Mechanical data validator for BSB structure, app JSON Schemas, verse anchors, sources, and timestamps.
+- Vitest unit tests and Playwright browser tests.
 
-Phase 1 is expected to build the BSB reader substrate and the mechanical data validators needed by the app.
+## Important Source Policy
 
-## Core Constraints
+The MVP’s Dragon / Chaos Waters data is a **source-metadata seed**, not the final transcript-extracted corpus. It is designed to prove the reader/data shape while preserving the core policy:
 
-- Insights must be BibleProject-explicit. Agents may summarize what an approved source span says, but they must not invent theology or publish synthetic claims that are not grounded in BibleProject material.
-- The app is static-first and offline-capable. The runtime should consume approved JSON packets and manifests, not reach into raw source media.
-- Mobile and e-reader ergonomics come first. Desktop can be excellent, but it should not drive the core reading model.
-- BSB is first. Multi-translation support is a later abstraction and should not complicate the Phase 1 substrate prematurely.
-- Raw audio, transcripts, downloaded metadata, and working media artifacts live outside git under `/home/yeshu/media/bibleproject-reader`.
-- Scripts and tools may validate structure, build static assets, and check mechanical consistency. Agents and reviewers make source-pairing and theological or semantic decisions.
+- Agents may not invent theology.
+- Transcript-derived claims require source-span evidence and QC before becoming approved data.
+- Raw BibleProject audio/transcripts stay outside git under `/home/yeshu/media/bibleproject-reader`.
+- This repo publishes only app code, public-domain Bible text, and lightweight source metadata/links.
 
-## Source Policy Summary
+## Development
 
-The source workflow separates raw material, evidence artifacts, review decisions, and published app data.
-
-Source records describe known BibleProject material. Pairing packets document evidence for whether two source records belong together; they are reviewed artifacts, not authoritative script output. Insight packets must cite source spans using `start_seconds` and `end_seconds`, then pass theological and source-fidelity review before publication.
-
-Extractor agents do not write directly to published data. Approved packets are promoted by a data steward after review.
-
-Content licensing needs explicit review before redistribution. This repository does not imply that BibleProject transcripts, audio, course material, or derived source excerpts are freely redistributable. The app license is still TBD; a permissive open-source license is recommended for original application code once content licensing boundaries are settled.
+```bash
+npm install
+npm run data:bsb      # regenerate public/data/bibles/bsb.json from BereanBible.com
+npm run validate:data # mechanical data checks
+npm run test          # unit tests
+npm run build         # production build; generates dist/sw.js with hashed asset precache
+npm run test:e2e      # Playwright browser tests against preview, including offline reload
+npm run verify        # full local gate
+npm run verify:netlify # Netlify build gate: data validation, unit tests, production build
+```
 
 ## Orientation
 
@@ -37,6 +44,4 @@ Content licensing needs explicit review before redistribution. This repository d
 - [Agentic Source Workflow](docs/agentic-source-workflow.md) defines the agent and reviewer roles.
 - [Data Layout](docs/data-layout.md) documents the repo layout and the external media root.
 - [QC Gates](docs/qc-gates.md) defines the required review gates.
-- [Initial Thin Slice](docs/initial-thin-slice.md) scopes the first theme slice.
-- [`schemas/`](schemas) contains draft JSON Schemas for source records, pairing packets, insight packets, relation packets, and themes.
-- [`data/themes/dragon-chaos-waters.json`](data/themes/dragon-chaos-waters.json) is the only seed theme metadata in Phase 0.
+- [`schemas/`](schemas) contains JSON Schemas for app-consumed Bible/insight payloads plus draft source-record, pairing-packet, insight-packet, relation-packet, and theme review formats.
