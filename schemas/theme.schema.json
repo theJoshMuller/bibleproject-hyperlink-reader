@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bphr:schema:theme",
+  "title": "Theme",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "status",
+    "slug",
+    "label",
+    "scope",
+    "summary",
+    "source_refs"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^theme_[a-z0-9][a-z0-9_-]*$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "needs_revision", "approved", "rejected"]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["initial_thin_slice", "theme", "collection"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_refs": {
+      "type": "array",
+      "description": "Source IDs that support claims made by this theme metadata. Empty is allowed for planning-only seed metadata.",
+      "items": {
+        "type": "string",
+        "pattern": "^src_[a-z0-9][a-z0-9_-]*$"
+      },
+      "uniqueItems": true
+    },
+    "source_note": {
+      "type": "string"
+    },
+    "anchor_seed_labels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "created_for_phase": {
+      "type": "string"
+    }
+  }
+}

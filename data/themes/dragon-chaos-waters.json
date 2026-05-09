@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/theme.schema.json",
+  "id": "theme_dragon_chaos_waters",
+  "status": "draft",
+  "slug": "dragon-chaos-waters",
+  "label": "Dragon / Chaos Waters",
+  "scope": "initial_thin_slice",
+  "summary": "Seed metadata for the initial thin-slice theme. Approved insight packets must supply BibleProject-backed claims before app publication.",
+  "source_refs": [],
+  "source_note": "No BibleProject source claims are asserted by this seed metadata.",
+  "anchor_seed_labels": [
+    "dragon",
+    "chaos waters"
+  ],
+  "created_for_phase": "phase_0"
+}

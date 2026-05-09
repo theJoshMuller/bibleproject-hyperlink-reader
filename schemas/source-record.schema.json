@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bphr:schema:source-record",
+  "title": "Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "status",
+    "provider",
+    "source_type",
+    "title",
+    "source_refs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^src_[a-z0-9][a-z0-9_-]*$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "needs_revision", "approved", "rejected"]
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["podcast_episode", "course_session", "video", "article", "other"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "local_media_path": {
+      "type": "string",
+      "pattern": "^/home/yeshu/media/bibleproject-reader/"
+    },
+    "local_transcript_path": {
+      "type": "string",
+      "pattern": "^/home/yeshu/media/bibleproject-reader/"
+    },
+    "source_refs": {
+      "type": "array",
+      "description": "External source URLs, catalog IDs, or local evidence references used to identify this source.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "license_notes": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
