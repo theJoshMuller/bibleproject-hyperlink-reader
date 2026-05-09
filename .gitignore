@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Local media, dumps, and generated artifacts
+media/
+raw/
+downloads/
+transcripts/
+cache/
+tmp/
+data/raw/
+data/local/
+data/generated/
+data/manifests/generated/
+*.local.json
+*.local.jsonl
+
+# Raw media/transcript files should stay under /home/yeshu/media/bibleproject-reader
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.aac
+*.ogg
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.srt
+*.vtt
+
+# Beads local/runtime artifacts; .beads/issues.jsonl stays tracked
+.beads/embeddeddolt/
+.beads/export-state.json
+
+# Local Hermes agent scratch files
+.hermes/
+
+# Logs and package manager noise
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key

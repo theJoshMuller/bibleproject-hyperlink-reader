@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "bibleproject_hyperlink_reader",
+  "project_id": "b7405908-8138-4878-97c0-9bdbef1f5779"
+}

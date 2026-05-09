@@ -1,0 +1,3 @@
+# Beads configuration for this repository.
+# Keep this file minimal; Beads 1.0.3 embedded mode stores operational state in .beads/embeddeddolt/.
+issue-prefix: bibleproject-hyperlink-reader
