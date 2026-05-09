@@ -2,6 +2,8 @@
 
 BibleProject Hyperlink Reader is a static-first PWA Bible reader for following evidence-backed thematic links through Scripture. The current deployed MVP focuses on the **Dragon / Chaos Waters** theme and uses the public-domain **Berean Standard Bible (BSB)** as its reader substrate.
 
+Live MVP: https://bibleproject-hyperlink-reader.netlify.app
+
 This is an independent project and is not affiliated with, endorsed by, or sponsored by BibleProject. BibleProject content use remains subject to BibleProject's own terms and licensing.
 
 ## Current MVP
@@ -37,6 +39,12 @@ npm run test:e2e      # Playwright browser tests against preview, including offl
 npm run verify        # full local gate
 npm run verify:netlify # Netlify build gate: data validation, unit tests, production build
 ```
+
+## Deployment
+
+Production: https://bibleproject-hyperlink-reader.netlify.app
+
+GitHub Actions runs `npm run verify:netlify` and publishes `dist/` to Netlify production on pushes to `main`. The Netlify site is also linked locally via `.netlify/` for emergency CLI deploys, but that folder stays gitignored.
 
 ## Orientation
 

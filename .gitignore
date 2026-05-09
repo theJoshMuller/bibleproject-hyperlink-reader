@@ -75,3 +75,6 @@ Thumbs.db
 .dolt/
 *.db
 .beads-credential-key
+
+# Local Netlify folder
+.netlify
