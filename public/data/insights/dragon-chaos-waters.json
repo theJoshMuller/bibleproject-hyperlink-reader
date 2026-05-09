@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "status": "MVP source-metadata seed; transcript-derived claims require later QC.",
+    "generatedAt": "2026-05-09T04:32:07.806781Z",
+    "policyNote": "This bundle links to BibleProject public pages and podcast chapter timestamps. It does not redistribute BibleProject transcripts/audio and should not be treated as final BP-derived synthesis until transcript evidence packets pass QC."
+  },
+  "themes": [
+    {
+      "id": "dragon-chaos-waters",
+      "name": "Dragon / Chaos Waters",
+      "shortName": "Dragon",
+      "color": "#22d3ee",
+      "description": "A first-theme slice for tracing sea, deep, monster, serpent, and anti-creation imagery through Scripture."
+    }
+  ],
+  "sourceRecords": [
+    {
+      "id": "bp-chaos-dragon-e1-dragons-in-bible",
+      "title": "Chaos Dragon E1: Dragons in the Bible",
+      "type": "podcast",
+      "pageUrl": "https://bibleproject.com/podcasts/dragons-bible/",
+      "description": "Are there monsters in the Bible? In this episode, Tim and Jon kick off a brand new theme study, the chaos dragon, with a look at the language the Bible uses to describe this creature.",
+      "sourceStatus": "metadata-seeded",
+      "audioUrl": "https://afp-597195-injected.calisto.simplecastaudio.com/695767b0-cd40-4e6c-ac8c-ac6bc0df77ee/episodes/f25d46b0-2c0d-426d-a520-14091a1f180c/audio/128/default.mp3?awCollectionId=695767b0-cd40-4e6c-ac8c-ac6bc0df77ee&awEpisodeId=f25d46b0-2c0d-426d-a520-14091a1f180c",
+      "episodeChapters": [
+        {
+          "title": "Intro",
+          "startSeconds": 0,
+          "endSeconds": 96,
+          "label": "0:00–1:36"
+        },
+        {
+          "title": "Dragons in the Bible?",
+          "startSeconds": 96,
+          "endSeconds": 267,
+          "label": "1:36–4:27"
+        },
+        {
+          "title": "There Be Dragons",
+          "startSeconds": 267,
+          "endSeconds": 1225,
+          "label": "4:27–20:25"
+        },
+        {
+          "title": "Sea Creatures vs. Wilderness Creatures",
+          "startSeconds": 1225,
+          "endSeconds": 1873,
+          "label": "20:25–31:13"
+        },
+        {
+          "title": "Visualizing the Chaos Creature",
+          "startSeconds": 1873,
+          "endSeconds": 2621,
+          "label": "31:13–43:41"
+        },
+        {
+          "title": "Show Credits",
+          "startSeconds": 2621,
+          "endSeconds": 2763,
+          "label": "43:41–46:03"
+        }
+      ]
+    },
+    {
+      "id": "bp-chaos-dragon-e10-jonah",
+      "title": "Chaos Dragon E10: Jonah and the…Chaos Dragon?",
+      "type": "podcast",
+      "pageUrl": "https://bibleproject.com/podcasts/jonah-and-chaos-dragon/",
+      "description": "The story of Jonah uses all the motifs of the theme of the sea dragon, except the story calls it a great fish! Join Tim and Jon as they discuss Jonah and the reality that even the belly of the beast is no match for Yahweh.",
+      "sourceStatus": "metadata-seeded",
+      "audioUrl": "https://afp-597195-injected.calisto.simplecastaudio.com/695767b0-cd40-4e6c-ac8c-ac6bc0df77ee/episodes/75b6cbd6-d599-4e1c-acab-def0edcf2f3d/audio/128/default.mp3?awCollectionId=695767b0-cd40-4e6c-ac8c-ac6bc0df77ee&awEpisodeId=75b6cbd6-d599-4e1c-acab-def0edcf2f3d",
+      "episodeChapters": [
+        {
+          "title": "Intro",
+          "startSeconds": 0,
+          "endSeconds": 105,
+          "label": "0:00–1:45"
+        },
+        {
+          "title": "The Origin Story",
+          "startSeconds": 105,
+          "endSeconds": 681,
+          "label": "1:45–11:21"
+        },
+        {
+          "title": "The Story of Jonah",
+          "startSeconds": 681,
+          "endSeconds": 1680,
+          "label": "11:21–28:00"
+        },
+        {
+          "title": "The Great Fish - A Sea Bed for New Creation",
+          "startSeconds": 1680,
+          "endSeconds": 1785,
+          "label": "28:00–29:45"
+        },
+        {
+          "title": "Podcast Episode",
+          "startSeconds": 1785,
+          "endSeconds": 2704,
+          "label": "29:45–45:04"
+        },
+        {
+          "title": "The Problem of Evil",
+          "startSeconds": 2704,
+          "endSeconds": 3436,
+          "label": "45:04–57:16"
+        },
+        {
+          "title": "Show Credits",
+          "startSeconds": 3436,
+          "endSeconds": 3539,
+          "label": "57:16–58:59"
+        }
+      ]
+    },
+    {
+      "id": "bp-chaos-dragon-e8-isaiah",
+      "title": "Chaos Dragon E8: Isaiah and the Dragon",
+      "type": "podcast",
+      "pageUrl": "https://bibleproject.com/podcasts/isaiah-and-dragon/",
+      "description": "What happens when the entire nation of Israel consistently aligns themselves with the dragon? They themselves become a chaos monster Yahweh has to deal with. In this episode, Tim and Jon explore the theme of the chaos dragon in the scroll of Isaiah.",
+      "sourceStatus": "metadata-seeded",
+      "audioUrl": "https://afp-597195-injected.calisto.simplecastaudio.com/695767b0-cd40-4e6c-ac8c-ac6bc0df77ee/episodes/dcf36aef-27e8-44a1-9ba6-0f54a639b2c4/audio/128/default.mp3?awCollectionId=695767b0-cd40-4e6c-ac8c-ac6bc0df77ee&awEpisodeId=dcf36aef-27e8-44a1-9ba6-0f54a639b2c4",
+      "episodeChapters": [
+        {
+          "title": "Intro",
+          "startSeconds": 0,
+          "endSeconds": 138,
+          "label": "0:00–2:18"
+        },
+        {
+          "title": "Stories of Chaos & Sea Serpents",
+          "startSeconds": 138,
+          "endSeconds": 772,
+          "label": "2:18–12:52"
+        },
+        {
+          "title": "Judgement Upon the Whole Earth",
+          "startSeconds": 772,
+          "endSeconds": 1430,
+          "label": "12:52–23:50"
+        },
+        {
+          "title": "The Taunt of Babylon",
+          "startSeconds": 1430,
+          "endSeconds": 2182,
+          "label": "23:50–36:22"
+        },
+        {
+          "title": "The Isaiah Apocalypse",
+          "startSeconds": 2182,
+          "endSeconds": 3203,
+          "label": "36:22–53:23"
+        },
+        {
+          "title": "Show Credits",
+          "startSeconds": 3203,
+          "endSeconds": 3414,
+          "label": "53:23–56:54"
+        }
+      ]
+    },
+    {
+      "id": "bp-chaos-dragon-e18-revelation",
+      "title": "Chaos Dragon E18: The Dragon of Revelation",
+      "type": "podcast",
+      "pageUrl": "https://bibleproject.com/podcasts/dragon-revelation/",
+      "description": "Like the conclusion of any good story, the book of Revelation brings together all the themes in the Bible, including the theme of the dragon. In this episode, Tim and Jon discuss the dragon in John’s Revelation.",
+      "sourceStatus": "metadata-seeded",
+      "audioUrl": "https://afp-597195-injected.calisto.simplecastaudio.com/695767b0-cd40-4e6c-ac8c-ac6bc0df77ee/episodes/cdb8288c-c02c-4e99-a5d7-ad93d658ee0f/audio/128/default.mp3?awCollectionId=695767b0-cd40-4e6c-ac8c-ac6bc0df77ee&awEpisodeId=cdb8288c-c02c-4e99-a5d7-ad93d658ee0f",
+      "episodeChapters": [
+        {
+          "title": "Intro",
+          "startSeconds": 0,
+          "endSeconds": 164,
+          "label": "0:00–2:44"
+        },
+        {
+          "title": "The Power of the Dragon Will Be No Longer",
+          "startSeconds": 164,
+          "endSeconds": 499,
+          "label": "2:44–8:19"
+        },
+        {
+          "title": "The Unholy Trinity",
+          "startSeconds": 499,
+          "endSeconds": 1519,
+          "label": "8:19–25:19"
+        },
+        {
+          "title": "A Heavenly War",
+          "startSeconds": 1519,
+          "endSeconds": 2260,
+          "label": "25:19–37:40"
+        },
+        {
+          "title": "The Seed and the Woman",
+          "startSeconds": 2260,
+          "endSeconds": 3068,
+          "label": "37:40–51:08"
+        },
+        {
+          "title": "Victory Is Through Death",
+          "startSeconds": 3068,
+          "endSeconds": 3295,
+          "label": "51:08–54:55"
+        },
+        {
+          "title": "Show Credits",
+          "startSeconds": 3295,
+          "endSeconds": 3446,
+          "label": "54:55–57:26"
+        }
+      ]
+    },
+    {
+      "id": "bp-vocab-tannin-dragon",
+      "title": "“Tannin” Hebrew Meaning: Leviathan That Brings Death and Disorder",
+      "type": "video",
+      "pageUrl": "https://bibleproject.com/videos/vocab-insight-tannin-dragon/",
+      "description": "Discover the meaning of “tannin” in Hebrew, a leviathan (serpent) who symbolizes death and disorder and is ultimately defeated by God’s power.",
+      "sourceStatus": "metadata-seeded"
+    },
+    {
+      "id": "bp-guide-dragons-in-bible",
+      "title": "Dragons in the Bible | Resource Guide With Videos, Podcasts, & More",
+      "type": "guide",
+      "pageUrl": "https://bibleproject.com/guides/dragons-in-the-bible/",
+      "description": "Explore the theme of the dragon, sea monsters, and spiritual darkness throughout the story of the Bible and learn the surprising way Jesus defeats the dragon. Watch our short explainer video and explore related podcasts, Bible verses, and more.",
+      "sourceStatus": "metadata-seeded"
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight-chaos-waters-creation-frame",
+      "kind": "hyperlink",
+      "status": "mvp-seed-source-metadata",
+      "themeIds": [
+        "dragon-chaos-waters"
+      ],
+      "title": "Creation begins with God ordering the deep waters",
+      "shortLabel": "Waters → ordered world",
+      "explanation": "The seed graph starts where the biblical storyline starts: darkness, the deep, and the waters become the stage where God brings ordered life. The Chaos Dragon series explicitly lists Genesis 1 and Genesis 1:21 among its Scripture references, making this a safe first anchor for later transcript-backed synthesis.",
+      "pastoralUse": "This lets a reader see the theme as biblical-theological texture rather than as a detached monster motif: chaos is not ultimate; God orders it into a world where life can flourish.",
+      "anchors": [
+        {
+          "verseId": "GEN.1.2",
+          "ref": "Genesis 1:2",
+          "selector": "deep / waters",
+          "shape": "underline",
+          "color": "#38bdf8",
+          "note": "The deep and waters establish the chaos/order frame."
+        },
+        {
+          "verseId": "GEN.1.21",
+          "ref": "Genesis 1:21",
+          "selector": "great sea creatures",
+          "shape": "circle",
+          "color": "#22d3ee",
+          "note": "The first named sea-creature anchor in the creation account."
+        },
+        {
+          "verseId": "PSA.104.26",
+          "ref": "Psalms 104:26",
+          "selector": "Leviathan",
+          "shape": "ribbon",
+          "color": "#06b6d4",
+          "note": "Leviathan is portrayed within the ordered sea God made."
+        }
+      ],
+      "originalLanguages": [
+        {
+          "language": "Hebrew",
+          "term": "תַּנִּין",
+          "transliteration": "tannin",
+          "gloss": "dragon / sea monster / serpent-like creature",
+          "explanation": "The MVP exposes the Hebrew hook so non-specialists can see why English translations may look disconnected while the source-language motif remains connected."
+        }
+      ],
+      "sourceSpans": [
+        {
+          "sourceId": "bp-chaos-dragon-e1-dragons-in-bible",
+          "startSeconds": 96,
+          "endSeconds": 267,
+          "timestampLabel": "1:36–4:27",
+          "evidenceNote": "Episode chapter: “Dragons in the Bible?”"
+        },
+        {
+          "sourceId": "bp-chaos-dragon-e1-dragons-in-bible",
+          "startSeconds": 1225,
+          "endSeconds": 1873,
+          "timestampLabel": "20:25–31:13",
+          "evidenceNote": "Episode chapter: “Sea Creatures vs. Wilderness Creatures”"
+        },
+        {
+          "sourceId": "bp-vocab-tannin-dragon",
+          "evidenceNote": "BibleProject vocabulary video page for the Hebrew term “tannin.”"
+        }
+      ]
+    },
+    {
+      "id": "insight-psalm-isaiah-leviathan-thread",
+      "kind": "hyperlink",
+      "status": "mvp-seed-source-metadata",
+      "themeIds": [
+        "dragon-chaos-waters"
+      ],
+      "title": "Psalms and Isaiah develop Leviathan as a chaos enemy image",
+      "shortLabel": "Leviathan thread",
+      "explanation": "The Psalm and Isaiah anchors make the “dragon” language visible where the BSB explicitly uses dragons, Leviathan, sea, serpent, and monster imagery. These anchors are included because the BibleProject Chaos Dragon series lists Psalms 74:12–14 and Isaiah’s dragon material in public episode metadata.",
+      "pastoralUse": "The UI turns what would normally be cross-reference footnotes into a readable trail, helping readers follow a theme through poetry and prophecy without flattening it into proof-texting.",
+      "anchors": [
+        {
+          "verseId": "PSA.74.13",
+          "ref": "Psalms 74:13",
+          "selector": "broke the heads of the dragons",
+          "shape": "square",
+          "color": "#a78bfa",
+          "note": "Sea and dragon imagery appear together."
+        },
+        {
+          "verseId": "PSA.74.14",
+          "ref": "Psalms 74:14",
+          "selector": "crushed the heads of Leviathan",
+          "shape": "circle",
+          "color": "#8b5cf6",
+          "note": "Leviathan becomes part of the victory-over-chaos cluster."
+        },
+        {
+          "verseId": "ISA.27.1",
+          "ref": "Isaiah 27:1",
+          "selector": "Leviathan / serpent / dragon",
+          "shape": "ribbon",
+          "color": "#f59e0b",
+          "note": "Isaiah concentrates serpent, Leviathan, sea, and dragon language in one verse."
+        }
+      ],
+      "originalLanguages": [
+        {
+          "language": "Hebrew",
+          "term": "לִוְיָתָן",
+          "transliteration": "livyatan / Leviathan",
+          "gloss": "Leviathan",
+          "explanation": "The UI keeps the transliteration visible so the theme can be followed even when English translations vary across contexts."
+        }
+      ],
+      "sourceSpans": [
+        {
+          "sourceId": "bp-chaos-dragon-e1-dragons-in-bible",
+          "startSeconds": 2567,
+          "endSeconds": 2641,
+          "timestampLabel": "42:47–44:01",
+          "evidenceNote": "Episode page lists Psalms 74:12–14 among Scripture references; timestamp approximates the final “Visualizing the Chaos Creature” segment."
+        },
+        {
+          "sourceId": "bp-chaos-dragon-e8-isaiah",
+          "startSeconds": 138,
+          "endSeconds": 772,
+          "timestampLabel": "2:18–12:52",
+          "evidenceNote": "Episode chapter: “Stories of Chaos & Sea Serpents.”"
+        },
+        {
+          "sourceId": "bp-chaos-dragon-e8-isaiah",
+          "startSeconds": 2182,
+          "endSeconds": 3203,
+          "timestampLabel": "36:22–53:23",
+          "evidenceNote": "Episode chapter: “The Isaiah Apocalypse.”"
+        }
+      ]
+    },
+    {
+      "id": "insight-jonah-fish-as-chaos-monster-pattern",
+      "kind": "helpful-info",
+      "status": "mvp-seed-source-metadata",
+      "themeIds": [
+        "dragon-chaos-waters"
+      ],
+      "title": "Jonah’s “great fish” sits inside the sea-dragon pattern",
+      "shortLabel": "Jonah’s fish",
+      "explanation": "BibleProject’s public episode description says Jonah uses the motifs of the sea dragon while calling the creature a great fish. The MVP presents that as a source-linked note rather than an unsourced assertion, ready for later transcript-span review.",
+      "pastoralUse": "This is the kind of note that should feel natural inside a Bible reader: it explains why Jonah’s fish belongs in a larger biblical pattern while still letting the text remain primary.",
+      "anchors": [
+        {
+          "verseId": "JON.1.4",
+          "ref": "Jonah 1:4",
+          "selector": "great wind / sea",
+          "shape": "underline",
+          "color": "#0ea5e9",
+          "note": "The sea becomes the crisis space of the story."
+        },
+        {
+          "verseId": "JON.1.17",
+          "ref": "Jonah 1:17",
+          "selector": "great fish",
+          "shape": "circle",
+          "color": "#14b8a6",
+          "note": "BibleProject metadata connects Jonah’s fish with sea-dragon motifs."
+        },
+        {
+          "verseId": "JON.2.5",
+          "ref": "Jonah 2:5",
+          "selector": "waters / deep",
+          "shape": "underline",
+          "color": "#38bdf8",
+          "note": "Jonah describes descent into waters and the deep."
+        }
+      ],
+      "originalLanguages": [],
+      "sourceSpans": [
+        {
+          "sourceId": "bp-chaos-dragon-e10-jonah",
+          "startSeconds": 681,
+          "endSeconds": 1680,
+          "timestampLabel": "11:21–28:00",
+          "evidenceNote": "Episode chapter: “The Story of Jonah.”"
+        },
+        {
+          "sourceId": "bp-chaos-dragon-e10-jonah",
+          "startSeconds": 1680,
+          "endSeconds": 1785,
+          "timestampLabel": "28:00–29:45",
+          "evidenceNote": "Episode chapter: “The Great Fish - A Sea Bed for New Creation.”"
+        }
+      ]
+    },
+    {
+      "id": "insight-revelation-dragon-completes-thread",
+      "kind": "hyperlink",
+      "status": "mvp-seed-source-metadata",
+      "themeIds": [
+        "dragon-chaos-waters"
+      ],
+      "title": "Revelation names the dragon and gathers the story’s conflict",
+      "shortLabel": "Dragon finale",
+      "explanation": "The public BibleProject episode description for Revelation says the book brings together biblical themes including the dragon. This seed insight makes Revelation 12 reachable from earlier water/monster anchors while leaving final wording for transcript QC.",
+      "pastoralUse": "The final link helps readers see Revelation as the culmination of an older biblical image, not as an isolated end-times symbol.",
+      "anchors": [
+        {
+          "verseId": "REV.12.3",
+          "ref": "Revelation 12:3",
+          "selector": "great red dragon",
+          "shape": "circle",
+          "color": "#ef4444",
+          "note": "The dragon is explicitly named in John’s vision."
+        },
+        {
+          "verseId": "REV.12.9",
+          "ref": "Revelation 12:9",
+          "selector": "ancient serpent / dragon",
+          "shape": "ribbon",
+          "color": "#f97316",
+          "note": "Revelation connects dragon and serpent language."
+        },
+        {
+          "verseId": "REV.13.1",
+          "ref": "Revelation 13:1",
+          "selector": "beast rising out of the sea",
+          "shape": "square",
+          "color": "#06b6d4",
+          "note": "Sea and beast imagery continue in Revelation’s symbolic world."
+        }
+      ],
+      "originalLanguages": [
+        {
+          "language": "Greek",
+          "term": "δράκων",
+          "transliteration": "drakōn",
+          "gloss": "dragon",
+          "explanation": "The Greek label makes Revelation’s explicit dragon language visible beside the earlier Hebrew motif trail."
+        }
+      ],
+      "sourceSpans": [
+        {
+          "sourceId": "bp-chaos-dragon-e18-revelation",
+          "startSeconds": 164,
+          "endSeconds": 499,
+          "timestampLabel": "2:44–8:19",
+          "evidenceNote": "Episode chapter: “The Power of the Dragon Will Be No Longer.”"
+        },
+        {
+          "sourceId": "bp-chaos-dragon-e18-revelation",
+          "startSeconds": 3068,
+          "endSeconds": 3295,
+          "timestampLabel": "51:08–54:55",
+          "evidenceNote": "Episode chapter: “Victory Is Through Death.”"
+        }
+      ]
+    }
+  ]
+}

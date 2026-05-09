@@ -61,13 +61,13 @@ The repo-side layout is expected to stay publishable:
 
 ```text
 docs/                 Project architecture, workflow, and QC documentation
-schemas/              JSON Schemas for reviewed data packets
+schemas/              JSON Schemas for app payloads and reviewed data packets
 data/themes/          Seed and approved theme metadata
 data/sources/         Approved source records when ready
 data/packets/         Approved insight and relation packets when ready
 data/manifests/       Generated app manifests when ready
-src/                  Future PWA source code
-public/               Future static app assets
+src/                  PWA source code
+public/               Static app assets and publishable MVP data payloads
 ```
 
-Phase 0 creates docs, schemas, and one seed theme metadata file only. Approved source records, insight packets, relation packets, generated manifests, and app code are later-phase work.
+Phase 0 created docs, schemas, and one seed theme metadata file. The Phase 1 deployed MVP adds app code plus two publishable app-consumed datasets under `public/data/`: the public-domain BSB reader payload and a clearly labeled Dragon / Chaos Waters source-metadata seed. Raw media, transcripts, draft packets, and reviewer notes still remain outside git under `/home/yeshu/media/bibleproject-reader/`; only QC-approved future packets/manifests should be promoted beyond this labeled MVP seed exception.

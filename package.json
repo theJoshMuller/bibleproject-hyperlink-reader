@@ -1,0 +1,42 @@
+{
+  "name": "bibleproject-hyperlink-reader",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first Bible reader MVP for exploring source-linked BibleProject theme hyperlinks.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build && node scripts/postbuild-sw.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "validate:data": "node scripts/validate-data.mjs",
+    "verify": "npm run validate:data && npm run test && npm run build && npm run test:e2e",
+    "verify:netlify": "npm run validate:data && npm run test && npm run build",
+    "data:bsb": "node scripts/build-bsb-data.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/node": "^25.6.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "ajv": "^8.20.0",
+    "jsdom": "latest",
+    "vitest": "latest"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

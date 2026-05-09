@@ -9,6 +9,9 @@ build/
 .svelte-kit/
 .vite/
 coverage/
+playwright-report/
+test-results/
+tsconfig.tsbuildinfo
 
 # Environment and secrets
 .env
